@@ -3,7 +3,10 @@
 A simple JavaScript project that allows users to change the background color of the webpage by clicking on different color buttons.
 
 
+---
 
+🚀 Live Demo 
+https://anmol2074.github.io/Color-Scheme-Switcher/
 
 ---
 
@@ -17,5 +20,6 @@ A simple JavaScript project that allows users to change the background color of 
 
 ## 👤 Author
 - GitHub: https://github.com/Anmol2074
+
 
 
