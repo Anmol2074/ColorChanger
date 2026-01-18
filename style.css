@@ -1,38 +1,72 @@
-html {
-    margin: 0;
-  }
-  
-  span {
-    display: block;
-  }
-  .canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
-  }
-  
-  .button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
-  }
-  
-  #grey {
-    background: grey;
-  }
-  
-  #white {
-    background: white;
-  }
-  #blue {
-    background: blue;
-  }
-  #yellow {
-    background: yellow;
-  }
-  #purple{
-    background-color: purple;
-  }
- 
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  transition: background-color 0.3s ease;
+}
+
+nav {
+  background: #212121;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ===== Canvas ===== */
+.canvas {
+  margin: 100px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.colors {
+  margin: 30px 0;
+}
+
+/* ===== Color Buttons ===== */
+.button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Selected state */
+.button.active {
+  border: 5px solid #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+/* Colors */
+#grey { background-color: grey; }
+#white { background-color: white; }
+#blue { background-color: blue; }
+#yellow { background-color: yellow; }
+#purple { background-color: purple; }
+
+/* ===== Text ===== */
+h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #000;
+}
+
+h2 span {
+  display: block;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
